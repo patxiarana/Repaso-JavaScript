@@ -20,6 +20,8 @@ puntaje++; // 10
 ++puntaje ; // 12
 
 
+puntaje-- ;
+
 console.log(puntaje) ;
 
 
