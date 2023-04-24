@@ -10,3 +10,15 @@ const producto = {
     precio : 300 ,
     disponible : true ,
 }
+
+// Forma anterior 
+
+const precioProducto  = producto.precio ;
+const nombreProducto = producto.nombreProduto ;
+
+
+
+// Destructuring 
+
+const {precio} = producto ;
+const {nombreProduto} = producto ;
