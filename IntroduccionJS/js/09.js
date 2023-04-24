@@ -22,3 +22,8 @@ const nombreProducto = producto.nombreProduto ;
 
 const {precio} = producto ;
 const {nombreProduto} = producto ;
+
+
+
+console.log(precio)
+console.log(producto)
