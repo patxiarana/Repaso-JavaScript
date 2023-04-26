@@ -12,7 +12,9 @@ usuarioAutenticado
 .then(function(resultado) {
     console.log(resultado)
 })
-
+.catch(function(error){
+    console.log(error)
+})
 
 console.log(usuarioAutenticado)
 
